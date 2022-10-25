@@ -13,7 +13,7 @@ int diaSemana()
     char inicial,*dia;
     do
     {
-        printf("Introduzca la inicial del dia de la semana:");
+        printf("Introduzca la inicial del dia de la semana (miercoles sera la letra X por motivos de repeticion):");
         scanf("%c",&inicial);
     }while(inicial!='L' && inicial!='M' && inicial!='X' && inicial!='J' &&
     inicial!='V' && inicial!='S' && inicial!='D');
